@@ -33,7 +33,7 @@ def train(
     val_data_path: str = test_set_path,
     cache_dir: str = catche_path,
     split: int = 100,
-    micro_batch_size: int = 4,
+    micro_batch_size: int = 16,
     num_epochs: int = 3,
     learning_rate: float = 2e-5,# 3e-4 is the learning rate used in the LLaMA paper
     cutoff_len: int = 512, # consider changing to 1024
