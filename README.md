@@ -5,6 +5,10 @@ Install dependencies. We used conda environment.
 ```
 conda env create -f environment.yml
 ```
+Activate conda environment.
+```
+conda activate DRG-LLaMA
+```
 
 
 ## MIMIC-IV pre-processing

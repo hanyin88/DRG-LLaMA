@@ -1,4 +1,4 @@
-name: lora
+name: DRG-LLaMA
 channels:
   - defaults
 dependencies:
