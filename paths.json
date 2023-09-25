@@ -1,14 +1,14 @@
 {
     "dc_summary_path": "/data/hanyinw2/physionet.org/files/mimic-iv-note/2.2/note/discharge.csv", 
     "mimic_drg_path": "/data/MIMIC-IV/2.0/hosp/drgcodes.csv",
-    "drg_34_path": "/data/hanyinw2/serv-04-production/data/DRG_34.csv",
-    "my_mapping_path":"/data/hanyinw2/serv-04-production/data/DRG34_Mapping.csv",
-    "id2label_path": "/data/hanyinw2/serv-04-production/data/id2label.csv",
-    "drg_34_dissection_path": "/data/hanyinw2/serv-04-production/data/drg_34_dissection.csv",
-    "train_set_path": "/data/hanyinw2/serv-04-production/data/new_train.csv",
-    "test_set_path": "/data/hanyinw2/serv-04-production/data/new_test.csv",
-    "multi_train_set_path": "/data/hanyinw2/serv-04-production/data/multi_train.csv",
-    "multi_test_set_path": "/data/hanyinw2/serv-04-production/data/data/multi_test.csv",
+    "drg_34_path": "/data/hanyinw2/DRG-LLaMA/data/DRG_34.csv",
+    "my_mapping_path":"/data/hanyinw2/DRG-LLaMA/data/DRG34_Mapping.csv",
+    "id2label_path": "/data/hanyinw2/DRG-LLaMA/data/id2label.csv",
+    "drg_34_dissection_path": "/data/hanyinw2/DRG-LLaMA/data/drg_34_dissection.csv",
+    "train_set_path": "/data/hanyinw2/DRG-LLaMA/data/new_train.csv",
+    "test_set_path": "/data/hanyinw2/DRG-LLaMA/data/new_test.csv",
+    "multi_train_set_path": "/data/hanyinw2/DRG-LLaMA/data/multi_train.csv",
+    "multi_test_set_path": "/data/hanyinw2/DRG-LLaMA/data/data/multi_test.csv",
     "catche_path": "/data/hanyinw2/cache/huggingface",
     "output_path": "/data/hanyinw2/experiments"
   }
