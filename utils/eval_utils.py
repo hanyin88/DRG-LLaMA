@@ -21,8 +21,6 @@ pc_cc_mapping = pd.read_csv(drg_34_dissection_path)[["principal_diagnosis_lable"
 num_labels_pc = pc_cc_mapping.principal_diagnosis_lable.nunique()
 
 # make a dictinoary where key is principal_diagnosis_lable and value is CC/MCC. For one key there can be multiple values
-
-# subsequently realized all [1,0] is due to typo in the original rule and should be fixed!!
 pc_cc_dict = {}
 for index, row in pc_cc_mapping.iterrows():
     if row["principal_diagnosis_lable"] not in pc_cc_dict:
