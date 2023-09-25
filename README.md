@@ -1,5 +1,7 @@
 # DRG-LLaMA
 
+This repository contains the code used for [DRG-LLaMA : Tuning LLaMA Model to Predict Diagnosis-related Group for Hospitalized Patients](https://arxiv.org/abs/2309.12625) and implementation instructions.
+
 ## Local setup
 Install dependencies. We used conda environment.
 ```
@@ -32,7 +34,7 @@ The script will generate files in "multi_train_set_path", "multi_test_set_path" 
 
 
 ## Running the models
-We provided llama_single.py and llama_two.py, which implement fine-tuning of the LLaMA model using Lora with single label and two-label approach, respectively. We largely adopted the framework from https://github.com/tloen/alpaca-lora.
+We provided llama_single.py and llama_two.py, which implement fine-tuning of LLaMA with LoRA for the single label and two-label approaches of DRGs prediction, respectively. We largely adopted the framework from https://github.com/tloen/alpaca-lora.
 
 Example usaige:
 ```
@@ -51,7 +53,7 @@ python -m llama_single \
     --lora_alpha 16 \
     --lora_dropout 0.05 \
 ```
-clinicalBERT_single.py implements the fine-tuning of clinicalBERT using for single label DRGs prediciton. It can be run as:
+clinicalBERT_single.py implements the fine-tuning of clinicalBERT for the single label DRGs prediciton. It can be run as:
 ```
 python -m clinicalBERT_single.py --base_model ""emilyalsentzer/Bio_ClinicalBERT""
 ```
